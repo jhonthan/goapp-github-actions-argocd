@@ -1,0 +1,19 @@
+name: CD
+on:
+  push:
+    branches: [main]
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: build image and push docker hub
+        uses: docker/build-push-action@v1.1.10
+        with:
+          username: jhonthan
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          repository: jhonthan/goapp-argocd
+          tags: ${{ github.sha }}, latest
