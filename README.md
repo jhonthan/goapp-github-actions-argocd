@@ -1,7 +1,7 @@
 ## 💡 Idea
 In this process, the idea is to create a new image of Docker of a web server running in Go and automatize the process to build the image and push it to Docker Hub using GitHub Actions and deploy the image automatically in Kubernetes using ArgoCD.
 
-![Images\Screenshot](argo-cd.png)
+![Screenshot](Images/argo-cd.png)
 
 ---
 
@@ -40,7 +40,7 @@ In this process, the idea is to create a new image of Docker of a web server run
 
 In your GitHub project in the tab Actions, you shoulb be the process to build the new image to Docker Hub.
 
-![Images\Screenshot](github-actions.png)
+![Screenshot](Images/github-actions.png)
 
 9. Install the ArgoCD in your Kubernetes using the procedure in [ArgoCD Getting-Started] (https://argo-cd.readthedocs.io/en/stable/getting_started/)
 
@@ -58,4 +58,4 @@ In your GitHub project in the tab Actions, you shoulb be the process to build th
 
 Now the ArgoCD will read your GitHub Repository and deploy the artifacts in your Kubernetes.
 
-![Images\Screenshot](argo-cd.png)
+![Screenshot](Images/argo-cd.png)
