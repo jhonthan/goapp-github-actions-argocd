@@ -27,8 +27,8 @@ In this process, the idea is to create a new image of Docker of a web server run
 
 5. Inside the folder `k8s` test the build with Kustomize using the command: `kustomize build`.
 
-6. Create a new repository in GitHub to store your files, and after this return to DockerHub > Account Settings > Security > create a new token. Go to your new repository on GitHub  > Settings > Secrets and variable > actions > Create new repository secrets: 
-- variable: DOCKER_PASSWORD
+6. Create a new repository in GitHub to store your files, and after this return to `DockerHub > Account Settings > Security` > create a new token. Go to your new repository on `GitHub  > Settings > Secrets and variable > actions` > Create new repository secrets: 
+- variable: `DOCKER_PASSWORD`
 - values: <your_secret_created_DockerHub>
 
 7. Create a new folder in your root project with the name `.github` and inside this folder create a new folder with name `workflow` and inisde the folder worflow create a new file with name `cd.yaml`.
