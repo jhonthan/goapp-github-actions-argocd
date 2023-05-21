@@ -51,9 +51,11 @@ In your GitHub project in the tab Actions, you shoulb be the process to build th
 12. Inside the ArgoCD create a new app with the information:
 - Application name: `goapp`
 - Project name: `Default`
-- Sync Policy: `manual`
+- Sync Policy: `Automatic` (The sync will run automatically every 3 minutes) 
 - Source > Repository URL: `https://github.com/jhonthan/goapp-github-actions-argocd`
 - PATH: `k8s`
+- Cluster URL: `https://kubernetes.default.svc`
+- Namespace: `goapp`
 - Create
 
 Now the ArgoCD will read your GitHub Repository and deploy the artifacts in your Kubernetes.
