@@ -34,9 +34,9 @@ In this process, the idea is to create a new image of Docker of a web server run
 7. Create a new folder in your root project with the name `.github` and inside this folder create a new folder with name `workflow` and inisde the folder worflow create a new file with name `cd.yaml`.
 
 8. Now the process is add all the files in your GitHub project follow the commands:
-`git add . `
-`git commit -m "deploy new version using CD"`
-`git push origin main `
+- `git add . `
+- `git commit -m "deploy new version using CD"`
+- `git push origin main `
 
 In your GitHub project in the tab Actions, you shoulb be the process to build the new image to Docker Hub.
 
