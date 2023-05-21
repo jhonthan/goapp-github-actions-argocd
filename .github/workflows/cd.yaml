@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: build image and push docker hub
-        uses: docker/build-push-action@v4
+        uses: docker/build-push-action@v1
         with:
           username: jhonthan
           password: ${{ secrets.DOCKER_PASSWORD }}
