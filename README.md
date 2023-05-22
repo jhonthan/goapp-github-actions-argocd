@@ -5,7 +5,7 @@ In this process, the idea is to create a new image of Docker of a web server run
 
 ---
 
-### 🛠️ Worked wuth
+### 🛠️ Worked with:
 * Go
 * Docker
 * K3d
@@ -38,7 +38,7 @@ In this process, the idea is to create a new image of Docker of a web server run
 - `git commit -m "deploy new version using CD"`
 - `git push origin main `
 
-In your GitHub project in the tab Actions, you shoulb be the process to build the new image to Docker Hub.
+In your GitHub project in the tab Actions, you should be the process to build the new image to Docker Hub.
 
 ![Screenshot](Images/github-actions.png)
 
