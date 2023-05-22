@@ -1,7 +1,7 @@
 ## 💡 Idea
 In this process, the idea is to create a new image of Docker of a web server running in Go and automatize the process to build the image and push it to Docker Hub using GitHub Actions and deploy the image automatically in Kubernetes using ArgoCD.
 
-![Screenshot](Images/argo-cd.png)
+![Screenshot](Images/ArgoCD-K8s.png)
 
 ---
 
