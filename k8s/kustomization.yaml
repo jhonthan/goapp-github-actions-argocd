@@ -9,4 +9,4 @@ namespace: goapp
 images:
 - name: goapp
   newName: jhonthan/goapp-argocd
-  newTag: 3e32fadadcdcd2e3b48f1b5b60a29ba0478e8ff4
+  newTag: 481e726aa15c831b0f79fea0715cd16fd26d7dae
